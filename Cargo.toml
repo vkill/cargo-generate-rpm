@@ -31,3 +31,7 @@ assets = [
     { source = "LICENSE", dest = "/usr/share/doc/cargo-generate-rpm/LICENSE", doc = true, mode = "0644" },
     { source = "README.md", dest = "/usr/share/doc/cargo-generate-rpm/README.md", doc = true, mode = "0644" }
 ]
+
+[patch.crates-io]
+jobserver = { git = "https://github.com/rust-lang/jobserver-rs.git", rev = "66782f5" }
+
